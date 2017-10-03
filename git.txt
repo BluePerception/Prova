@@ -1,0 +1,33 @@
+$git clone "link del report" il link si prende dalla repository sul github se prendete il link ssh
+
+$git add "nome file" i file vengono messi in una lista che tiene conto dei file da caricare
+
+$git status stato dei file locali rispetto repository sul server
+
+$git commit -m "messaggio" dice nel messaggio cosa hai modificato e perchè(tipo delle configurazioni)
+
+$git push origin "nome del branch" serve per caricare i file nella repository remota
+
+$git branch "nome del nuovo branch" "nome branch partenza" creare nuovi branch
+
+$git branch -d "nome del branch" cancellare un branch dopo un merge
+
+$git branch -D "nome del branch" cancellare un branch
+
+$git checkout "nome del branch" fare switch al branch indicato
+
+$git rm "nome del file" rimuovere un file
+
+$git pull origin "nome del branch" scaricare file presenti nella repository remota
+
+$git merge "nome del branch" per fondere il branch indicato con quello corrente
+
+$git show mostra le ultime modifiche
+
+$git log --pretty=oneline mostra tutti commit fatti con id
+
+$git reset --hard "id" ritorna commit selezionato senza possibilità  di tornare a tutti quelli che sono tra quello di partenza a quello in cui si Ã¨ tornati
+
+procedura per recuperare un file cancellato/modificato di cui si è fatto git add: 
+$git status dovrebbe comparire in rosso una scritta che indica il file che è stato cancellato/modificato 
+$git checkout -- "nome del file" ricrea il file com'era al momento dell'add
