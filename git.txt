@@ -21,7 +21,7 @@ $git branch -d <nome del branch>
 serve per cancellare un branch dopo un merge
 
 $git branch -D <nome del branch> 
-server per cancellare un branch
+serve per cancellare un branch
 
 $git checkout <nome del branch> 
 serve per switchare al branch indicato
@@ -44,6 +44,11 @@ mostra tutti commit fatti con id
 $git reset --hard <id> 
 ritorna il commit selezionato senza possibilità  di tornare a tutti quelli che sono tra quello di partenza a quello in cui si è tornati
 
+$git stash
+inserisce i file modificati su un branch in uno "sgabuzzino" consentendo di muoversi temporaneamente su un altro branch senza dover mergiare le modifiche apportate per poter sistemare problemi o controllare cose e poi poter tornare nel proprio branch
+
+$git stash pop
+permette di ripristinare i file tenuti in caldo nello sgabuzzino sul proprio branch per poi procedere con un eventuale commit/merge
 
 procedura per recuperare un file cancellato/modificato di cui si è fatto git add: 
 $git status 
