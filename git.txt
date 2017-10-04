@@ -21,7 +21,7 @@ $git branch -d <nome del branch>
 serve per cancellare un branch dopo un merge
 
 $git branch -D <nome del branch> 
-server per cancellare un branch
+serve per cancellare un branch
 
 $git checkout <nome del branch> 
 serve per switchare al branch indicato
