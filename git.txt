@@ -7,6 +7,7 @@ i file vengono agggiunti ad una lista dei file da caricare nella repo
 $git status 
 mostra lo stato dei file locali rispetto alla repository remota
 
+//IL COMANDO MIGLIORE DI TUTTI <3 <3 <3 <3 <3
 $git commit -m <messaggio> 
 dice nel messaggio cosa hai modificato e perchè(tipo delle configurazioni)
 
@@ -29,7 +30,7 @@ $git rm <nome del file>
 serve a rimuovere un file
 
 $git pull origin <nome del branch> 
-serve per scaricare file presenti nella repository remota
+serve per scaricare i file presenti nel branch specifico nella repository remota
 
 $git merge <nome del branch> 
 serve per fondere il branch indicato con quello corrente
