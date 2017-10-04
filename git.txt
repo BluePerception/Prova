@@ -7,7 +7,6 @@ i file vengono agggiunti ad una lista dei file da caricare nella repo
 $git status 
 mostra lo stato dei file locali rispetto alla repository remota
 
-DIO
 $git commit -m <messaggio> 
 dice nel messaggio cosa hai modificato e perchè(tipo delle configurazioni)
 
