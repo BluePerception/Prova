@@ -30,7 +30,7 @@ $git rm <nome del file>
 serve a rimuovere un file
 
 $git pull origin <nome del branch> 
-serve per scaricare file presenti nella repository remota
+serve per scaricare i file presenti nel branch specifico nella repository remota
 
 $git merge <nome del branch> 
 serve per fondere il branch indicato con quello corrente
