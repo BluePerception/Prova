@@ -44,8 +44,10 @@ mostra tutti commit fatti con id
 $git reset --hard <id> 
 ritorna il commit selezionato senza possibilità  di tornare a tutti quelli che sono tra quello di partenza a quello in cui si è tornati
 
+
 procedura per recuperare un file cancellato/modificato di cui si è fatto git add: 
 $git status 
 dovrebbe comparire in rosso una scritta che indica il file che è stato cancellato/modificato 
+
 $git checkout -- <nome del file> 
 ricrea il file com'era al momento dell'add
