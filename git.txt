@@ -53,5 +53,6 @@ permette di ripristinare i file tenuti in caldo nello sgabuzzino sul proprio bra
 procedura per recuperare un file cancellato/modificato di cui si è fatto git add: 
 $git status 
 dovrebbe comparire in rosso una scritta che indica il file che è stato cancellato/modificato 
+
 $git checkout -- <nome del file> 
 ricrea il file com'era al momento dell'add
